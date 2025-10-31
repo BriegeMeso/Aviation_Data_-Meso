@@ -47,6 +47,19 @@ We will be able to create multiple views on:
 2. To analyze the relationship between aircraft make and model with injuries.
 3. To analyze aircraft damage in relation to engine type and no of engines.
 
+Visualizations
+<img width="712" height="424" alt="image" src="https://github.com/user-attachments/assets/0cd32862-ed90-4831-83b0-5874456bc226" />
+
+<img width="712" height="424" alt="image" src="https://github.com/user-attachments/assets/f9b47c94-a385-4e45-82f9-1feb197ec11e" />
+
+<img width="711" height="424" alt="image" src="https://github.com/user-attachments/assets/6fb47f43-5614-4022-a405-59f8a38bcf85" />
+
+<img width="711" height="424" alt="image" src="https://github.com/user-attachments/assets/2fd3586e-38ff-4c6e-9334-8535fd8a3d3a" />
+
+
+
+
+
    
 Insight Findings
 #### Conclusion-Flight category
