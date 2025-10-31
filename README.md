@@ -1,7 +1,54 @@
 Overview
+# Overview
+The company is expanding into new industries to diversify its portfolio. The company has plans to purchase and operate aicrafts for both commercial and private use. Your company is expanding in to new industries to diversify its portfolio. Specifically, they are interested in purchasing and operating airplanes for commercial and private enterprises, but do not know anything about the potential risks of aircraft. You are charged with determining which aircraft are the lowest risk for the company to start this new business endeavor. You must then translate your findings into actionable insights that the head of the new aviation division can use to help decide which aircraft to purchase.
+
 Business Understanding
+# Business problem
+The biggest risk in the aviation industry is safety which might result to serious damages to a business and even more  for a new venture. The above may lead to brand damage and heavy financial implications. 
+
+- To determine the relationship between flight category(private,commercial) and the extent of injuries.
+- To determine the relationship between flight category(private,commercial) and the extent of injuries.
+-  Determine the relationshop between flight category(private, commercial) and the extent of injuries.
+-  Provide three actionable recommendations for aircraft investment decisions
+
+Why : Conducting a risk assessment analysis enables the company to understand risks associated with different aircrafts. This will ensure reduced accident occurence,safer operations, and maximization of investments in the aircraft venture.
+
+## **Stakeholders**
+- ** Company Executives-people who needs insights before purchasing the flights
+- ** Operations team for the company-team that will be handling the aircrafts
+
+  
 Data Understanding
-Conclusions
+The data usied is from Aviation_Data_csv. The data has 90398 entries.
+Key columns to be used are: Make,Model, Flight.Category, Total.Fatal.Injuries, Total.Minor. Injuries, Total. Serious.Injuries, and Engine.Type
+
+
+#### Overview
+After understanding our dataset, we will not take subsequent steps to be able to handle our data **Data Preparation**.
+This will involve cleaning our data, formatting some rows as we prepare our data for analysis.
+
+The main goals of this step are to:
+1. Handle duplicates in our data  
+2. Identify and handle missing values in our data  
+3. Fix data types 
+4. Identify columns to be used 
+5. Create new columns for risk analysis
+5. Ensuring data is ready for data analysis and visualization
+
+## DATA Analysis & Visualization
+The objective here is to calculate risk metrics and produce clear recommendationst to support business recommendation for our client.
+
+To meet the business goals, data was majorly analyzed using groupby method. \
+- Grouping injuries by Flight.Category to compare injury severity.
+- Analyzing correlation between No of engines with aircraft damage
+
+We will be able to create multiple views on:
+1. To determine the relationship between flight category (private,commercial) and the extent of injuries.
+2. To analyze the relationship between aircraft make and model with injuries.
+3. To analyze aircraft damage in relation to engine type and no of engines.
+
+   
+Insight Findings
 #### Conclusion-Flight category
 
 - From our analysis, private planes reported the highest numbers of injuries overally with 21,523 fatal,12,387 serious and 15,277 minor. 
@@ -33,3 +80,14 @@ Overal insights.
 - Substantial damage are common in all engine types.
 Planes with (3-4) engines appear to reduce the proportion of severe outcomes maybe fue to better safety features.
 - Single engine are the most risk in terms of damage.
+
+  #### Tools used
+  - Python(Pandas, Matplotlib,Seaborn)
+  - -Tableau for dashboard vsualization
+  - GitHub
+  - Jupyter Notebook for data analysis
+    
+  #### References
+  -National Transportation Safety Board(NTSB)
+  -Federal Aviation Administration(FAA) Accidents Statistics 2023.
+
