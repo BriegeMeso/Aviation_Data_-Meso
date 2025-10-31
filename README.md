@@ -31,10 +31,16 @@ The main goals of this step are to:
 5. Create new columns for risk analysis
 5. Ensuring data is ready for data analysis and visualization
 
-## DATA Uderstanding & Analysis
-The data IS from the National Transportation Safety Board that includes aviation accident data from 1962 to 2023 about civil aviation accidents and selected incidents in the United States and international waters.
+## Data Understanding & Analysis
+The data IS from the National Transportation Safety Board that includes aviation accident data from 1962 to 2023 about civil aviation accidents and selected incidents in the United States and international waters. From the data, we see that there has been a significant drop in numbers of injuries over time. This may be due to the newer generations of aircrafts being used which use the katest technologies.
 
-Description of data.
+
+From the data, From the data, we see that there has been a significant drop in numbers of injuries or accidents over time. This may be due to the newer generations of aircrafts being used which use the latest technologies in aviation.
+
+For someone who wants to venture into this line of business, making safety their competitive advantage will be an added advantage
+<img width="3354" height="171" alt="image" src="https://github.com/user-attachments/assets/33fa2891-1d71-4f98-b50c-3892cf895785" />
+
+## Description of data.
 After the data was loaded, it contained 90,348 rows and 31 columns. After the data was cleaned, removing duplicates the rows dropped to 88,958 rows and 21 columns that were used in the analysis.
 
 For the categorical columns, some data had whitespaces and place holders which were removed to fully standardize the data. 
